@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/colorAccent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/esperaText"
+        android:layout_width="490px"
+        android:layout_height="168px"
+        android:textSize="40px"
+        android:lineSpacingExtra="4px"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:text="¿Cuantos tiempo crees que vas a tener que esperar el autobus?"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="163px"
+        android:layout_height="159px"
+        android:src="@drawable/facebus"
+        android:layout_marginTop="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="80dp"
+        android:layout_below="@+id/esperaText"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/gridLayout"
+        android:layout_alignParentBottom="true">
+
+
+        <Button
+            android:id="@+id/onemin"
+            android:layout_width="180px"
+            android:layout_marginLeft="43dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/my_button2"
+            android:layout_height="100dp"
+            android:layout_marginBottom="20px"
+            android:textAllCaps="false"
+            android:textSize="30px"
+            android:textColor="#D78600"
+            android:text="1 min" />
+
+        <Button
+            android:id="@+id/dosmin"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/my_button2"
+            android:layout_width="180px"
+            android:layout_height="100px"
+            android:text="2 min"
+            android:textAllCaps="false"
+            android:textSize="30px"
+            android:textColor="#D78600"/>
+
+        <Button
+            android:id="@+id/tresmin"
+            android:background="@drawable/my_button2"
+            android:layout_width="180px"
+            android:layout_height="100px"
+            android:layout_marginLeft="5dp"
+            android:text="3 min"
+            android:textAllCaps="false"
+            android:textSize="30px"
+            android:textColor="#D78600"/>
+
+        <Button
+            android:layout_width="180px"
+            android:layout_height="100px"
+            android:id="@+id/cuatromin"
+            android:layout_marginBottom="20px"
+            android:background="@drawable/my_button2"
+            android:layout_marginLeft="43dp"
+            android:text="4 min"
+            android:textAllCaps="false"
+            android:textSize="30px"
+            android:textColor="#D78600"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/cincomin"
+            android:layout_width="180px"
+            android:text="5 min"
+            android:layout_height="100px"
+            android:background="@drawable/my_button2"
+            android:layout_marginLeft="5dp"
+            android:textAllCaps="false"
+            android:textSize="30px"
+            android:textColor="#D78600"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:id="@+id/seismin"
+            android:layout_width="180px"
+            android:layout_height="100px"
+            android:background="@drawable/my_button2"
+            android:layout_marginLeft="5dp"
+            android:text="6 min"
+            android:textAllCaps="false"
+            android:textSize="30px"
+            android:textColor="#D78600"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:id="@+id/sietemin"
+            android:layout_width="180px"
+            android:layout_height="100px"
+            android:layout_marginBottom="20px"
+            android:background="@drawable/my_button2"
+            android:layout_marginLeft="43dp"
+            android:text="7 min"
+            android:textAllCaps="false"
+            android:textSize="30px"
+            android:textColor="#D78600"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/ochomin"
+            android:layout_width="180px"
+            android:layout_height="100px"
+            android:background="@drawable/my_button2"
+            android:layout_marginLeft="5dp"
+            android:text="8 min"
+            android:textAllCaps="false"
+            android:textSize="30px"
+            android:textColor="#D78600"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:id="@+id/nuevemins"
+            android:layout_width="180px"
+            android:layout_height="100px"
+            android:background="@drawable/my_button2"
+            android:layout_marginLeft="5dp"
+            android:text="9 min"
+            android:textAllCaps="false"
+            android:textSize="30px"
+            android:textColor="#D78600"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:id="@+id/diezmin"
+            android:layout_width="180px"
+            android:layout_height="100px"
+            android:background="@drawable/my_button2"
+            android:layout_marginLeft="43dp"
+            android:text="10 min"
+            android:textAllCaps="false"
+            android:textSize="30px"
+            android:textColor="#D78600"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:layout_width="180px"
+            android:layout_height="100px"
+
+            android:background="@drawable/my_button2"
+            android:layout_marginLeft="5dp"
+            android:text="+ 10 min"
+            android:textAllCaps="false"
+            android:textSize="30px"
+            android:textColor="#D78600"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:layout_width="180px"
+            android:layout_height="100px"
+            android:background="@drawable/my_button2"
+            android:layout_marginLeft="5dp"
+            android:text="no lo se"
+            android:textAllCaps="false"
+            android:textSize="30px"
+            android:textColor="#D78600"
+            android:layout_marginTop="10dp"/>
+
+    </GridLayout>
+
+
+</RelativeLayout>

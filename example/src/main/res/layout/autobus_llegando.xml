@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#F5F6F6"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:textColor="#4A90E2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FIN"
+        android:textSize="65px"
+        android:layout_marginTop="282dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="117dp"
+        android:textSize="36px"
+        android:textColor="#4A4A4A"
+        android:text="Has escuchado:"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:textSize="36px"
+        android:layout_width="565px"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:layout_height="wrap_content"
+        android:text="Un, dos, tres, cuatro vamos a divertirnos un rato"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/escrito"
+        android:textSize="28px"
+        android:textColor="#4A4A4A"
+        android:layout_width="565px"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Escrito por Paloma Diez Temprano"
+        android:layout_marginTop="132dp"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/locucion"
+        android:textSize="28px"
+        android:textColor="#4A4A4A"
+        android:layout_width="565px"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Locucion Manuel Cruz Lopez, Elena Peña Parrila, Marta Felipe Osorio"
+        android:layout_below="@+id/escrito"
+        android:layout_centerHorizontal="true" />
+
+
+
+
+
+</RelativeLayout>
